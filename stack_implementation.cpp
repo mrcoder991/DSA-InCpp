@@ -121,7 +121,7 @@ int main(){
             case 5:
                 cout << "Enter position of item you want to peek: " << endl;
                 cin >> position;
-                cout << "Peek function called - value at position" << position << "is :" << s1.peek(position) << endl;
+                cout << "Peek function called - value at position :" << position << " is : " << s1.peek(position) << endl;
                 break;
             case 6:
                 cout << "Count function called - Number of items in the stack :" << s1.count() << endl;
@@ -144,7 +144,7 @@ int main(){
                 break;
             default:
                 cout << "Enter proper option number " << endl;
-            }
+        }
     }
     while (option = !0);
     return 0;
